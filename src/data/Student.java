@@ -3,7 +3,7 @@ package data;
 import java.util.Arrays;
 
 public class Student extends Person{
-    int gradesCount;
+    private int gradesCount;
     private Grade[] grades;
 
     public Student(String firstName, String lastName, int gradesHistory) {
